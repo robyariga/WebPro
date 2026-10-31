@@ -199,7 +199,7 @@ if ($status === 'success') {
 
 } else if ($status === 'hapus') {
     $pesan = "Data buku berhasil dihapus.";
-    $jenisPesan = 'success';
+    $jenisPesan = 'danger';
 }
 
 // Fungsi untuk mengambil data buku dari database
